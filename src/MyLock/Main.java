@@ -18,7 +18,7 @@ public class Main {
                 lock.unlock();
             }));
         }
-        for(Thread thread:threads){
+        for (Thread thread : threads) {
             thread.start();
         }
         for(Thread thread:threads){
